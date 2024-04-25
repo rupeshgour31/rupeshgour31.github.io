@@ -1,4 +1,4 @@
-/* Description: Master CSS file */
+1/* Description: Master CSS file */
 
 /*****************************************
 Table Of Contents:
@@ -634,7 +634,8 @@ input[type='checkbox'] {
 .split .area-1 {
 	height: 430px;
 	padding-top:7;
-	background: linear-gradient(to bottom right, rgba(25, 26, 29, 0.2), rgba(25, 26, 29, 0.2)), url('../images/my image.png') center center no-repeat;
+	/* background: linear-gradient(to bottom right, rgba(25, 26, 29, 0.2), rgba(25, 26, 29, 0.2)), url('../images/rupesh.jpg') center center no-repeat; */
+	background: url('../images/rupesh.jpg') center center no-repeat;
 	background-size: cover;
 }
 
@@ -1292,3 +1293,26 @@ a:hover.back-to-top {
 	/* end of extra pages */
 }
 /* end of min-width 1200px */
+
+
+.card-box{
+	box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
+    border-radius: 9px;
+    padding: 20px 15px;
+    text-align: center;
+	background-color: #f7f7f7;
+}
+.card-box:hover{
+	/* box-shadow: 1px 8px 20px grey; */
+	box-shadow: 0 1rem 3rem rgb(0 0 0 / 24%);
+	/* box-shadow: 0 1rem 3rem rgb(0 0 0 / 34%); */
+    -webkit-transition:  box-shadow .3s ease-in;
+  }
+  .row_2{
+	margin-top: 60px;
+  }
+  .header{
+	background-image: url('../images/header-background-new.png');
+	background-size: 100% 100%;
+	/* background-size: cover; */
+  }
