@@ -638,7 +638,7 @@ input[type='checkbox'] {
 /*
 	 background: linear-gradient(to bottom right, rgba(25, 26, 29, 0.2), rgba(25, 26, 29, 0.2)), url('../images/rupesh.jpg') center center no-repeat;
 */
-	background: url('../images/rupesh.jpg') center center no-repeat;
+	background: url('../images/rupesh.jpg') no-repeat;
 	background-size: cover;
 }
 
@@ -1301,6 +1301,8 @@ a:hover.back-to-top {
     padding: 20px 15px;
     text-align: center;
 	background-color: #f7f7f7;
+	height: 500px;
+	overflow-y: auto;
 }
 .card-box:hover{
 	/* box-shadow: 1px 8px 20px grey; */
@@ -1331,6 +1333,22 @@ a:hover.back-to-top {
       height: 80px;
       border-radius: 50%;
   }
+
+
+::-webkit-scrollbar {
+  width: 2px; 
+  height: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+  /* background-color: #1e202a; */
+  /* outline: 1px solid #1e202a; */
+  border-radius: 50px;
+}
+
+::-webkit-scrollbar-track {
+  /* box-shadow: inset 0 0 4px rgba(0,0,0,0.2); */
+}
 /*
 
   .header{

@@ -17,6 +17,7 @@
     <meta property="og:image" content=""/> <!-- image link, make sure it's jpg -->
     <meta property="og:url" content=""/> <!-- where do you want your post to link to -->
     <meta name="twitter:card" content="summary_large_image">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- to have large image post format in Twitter -->
 
     <!-- Webpage Title -->
@@ -29,9 +30,10 @@
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/fontawesome-all.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Favicon  -->
     <link rel="icon" href="images/f-icon.webp">
+   
 </head>
 <body data-spy="scroll" data-target=".fixed-top">
 
@@ -39,7 +41,7 @@
 <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
     <div class="container">
 
-        <a class="navbar-brand logo-image" href="index.html"><img src="images/rupesh.jpg" alt="alternative" style="width: 50px; height: 50px; border-radius: 50%;"></a>
+        <!-- <a class="navbar-brand logo-image" href="index.html"><img src="images/rupesh.jpg" alt="alternative" style="width: 50px; height: 50px; border-radius: 50%;"></a> -->
 
         <!-- Text Logo - Use this if you don't have a graphic logo -->
         <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Mark</a> -->
@@ -72,11 +74,12 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-6">
-                <div class="text-container">
-                    <h1 class="h1-large">Rupesh Gour</h1>
+                <div class="text-container" data-aos="fade-up"
+                data-aos-duration="1000">
+                    <h1 class="h1-large animate__fadeInUp animate__delay-6s">Rupesh Gour</h1>
                     <h2 class="h2-large">Sr. Mobile Developer</h2>
                     <h4 class="h4-large">4 Yrs. of experience</h4>
-                    <a class="btn-solid-lg page-scroll" href="#contact">Contact Me</a>
+                    <a class="btn-solid-lg page-scroll" href="#contact"  data-aos="zoom-in-down">Contact Me</a>
                 </div>
             </div>
         </div>
@@ -90,8 +93,10 @@
         <div class="row">
             <div class="col-lg-4">
                 <div class="text-container first">
-                    <h2>Hi there, I'm Rupesh Gour</h2>
-                    <p>Dedicated Mobile developer with high-level technical skills and experienced
+                    <h2 data-aos="zoom-in-down"
+                    >Hi there, I'm Rupesh Gour</h2>
+                    <p data-aos="fade-up"
+                    data-aos-duration="1500">Dedicated Mobile developer with high-level technical skills and experienced
                         with 4.5 years with a knack for Coding and UI Design in cross platform.
                         Eager to leverage extensive experience in Flutter and agile methodologies to
                         contribute to the innovative environment. I have an experiences with
@@ -101,27 +106,36 @@
                 </div> <!-- end of text-container -->
             </div> <!-- end of col -->
             <div class="col-lg-4">
-                <div class="text-container second">
+                <div class="text-container second" data-aos="fade-up"
+                data-aos-duration="1500">
                     <div class="time">2023 - PRESENT</div>
                     <h6>Sr. Mobile Developer</h6>
                     <p>Client- Electronics Corporation of India Limited, Development and Maintenance
                         cross platform mobile application as per
                         client requirement.</p>
+                        <div class="" data-aos="fade-up"
+                        data-aos-duration="1600">
                     <div class="time">2020 - 2021</div>
                     <h6>Flutter Developer</h6>
                     <p>Developing & design Interactive UI and API implementation for cross
                         platform mobile application</p>
+                        </div>
                 </div> <!-- end of text-container -->
             </div> <!-- end of col -->
             <div class="col-lg-4">
-                <div class="text-container third">
+                <div class="text-container third" data-aos="fade-up"
+                data-aos-duration="1800">
                     <div class="time">2021 - 2023</div>
                     <h6>Flutter Developer</h6>
                     <p>Developing & design Interactive UI and API implementation for cross
                         platform mobile application, Client communication, and Project Lead.</p>
-                    <div class="time">2019 - 2020</div>
+                    <div class=""data-aos="fade-up"
+                    data-aos-duration="2000">
+                        <div class="time">2019 - 2020</div>
                     <h6>Jn. Software Developer</h6>
                     <p>Development and testing apis and managing database.</p>
+                    </div>
+
                 </div> <!-- end of text-container -->
             </div> <!-- end of col -->
         </div> <!-- end of row -->
@@ -135,15 +149,17 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <h2 class="h2-heading">My Work</h2>
-                <p class="p-heading">Application design and development is my core skill for more
+                <h2 class="h2-heading" data-aos="zoom-in-down">My Work</h2>
+                <p class="p-heading mb-3" data-aos="fade-up"
+                data-aos-duration="1500">Application design and development is my core skill for more
                     than 4.5 years. During that time I've discovered that I can help client and
                     companies with the following work.</p>
             </div> <!-- end of col -->
         </div> <!-- end of row -->
-        <div class="row">
+        <div class="row text-center">
             <div class="col-lg-4">
-                <div class="text-box">
+                <div class="text-box" data-aos="fade-up"
+                data-aos-duration="2000">
                     <i class="far fa-gem"></i>
                     <h4>DESIGN</h4>
                     <p>Design interactive and responsive user interface (UI) and user experience
@@ -152,7 +168,8 @@
                 </div> <!-- end of text-box -->
             </div> <!-- end of col -->
             <div class="col-lg-4">
-                <div class="text-box">
+                <div class="text-box" data-aos="fade-up"
+                data-aos-duration="2500">
                     <i class="fas fa-code"></i>
                     <h4>DEVELOPMENT</h4>
                     <p>Develop clean, efficient, and maintainable code according to best practices
@@ -162,7 +179,8 @@
                 </div> <!-- end of text-box -->
             </div> <!-- end of col -->
             <div class="col-lg-4">
-                <div class="text-box">
+                <div class="text-box" data-aos="fade-up"
+                data-aos-duration="3000">
                     <i class="fas fa-tv"></i>
                     <h4>App Publishing</h4>
                     <p>Deployment of application over Play Store and App Store and Ensure that it
@@ -179,13 +197,15 @@
 
     <!-- Details -->
 	<div class="split">
-		<div class="area-1">
+		<div class="area-1"data-aos="zoom-in-right"  data-aos-offset="300"
+        data-aos-easing="ease-in-sine">
 		</div><!-- end of area-1 on same line and no space between comments to eliminate margin white space --><div class="area-2 bg-gray">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
                         <!-- Text Container -->
-                        <div class="text-container">
+                        <div class="text-container" data-aos="zoom-in-left"  data-aos-offset="300"
+                        data-aos-easing="ease-in-sine">
                             <h2>My Skills</h2>
                             <p>I am a great communicator and love to invest the necessary time to understand the client's problem very well</p>
                             <h5>Programming Methodology</h5>
@@ -197,7 +217,7 @@
                             <h5>Other Tools</h5>
                             <p>Trello, Jira, Postman, ChatGPT</p>
                             <div class="icons-container">
-                                <img src="images/f-icon.webp" alt="alternative">
+                                <img src="images/f-icon.webp" alt="alternative" >
                                 <img src="images/dart-icon.png" alt="alternative">
                                 <img src="images/Xcode_icon.png" alt="alternative">
                                 <img src="images/gitlab-img.png" alt="alternative">
@@ -220,13 +240,14 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h2 class="h2-heading">Delivered Projects</h2>
-                    <p class="p-heading">Application design and development is my core skill for more than 4.5 years. During that time I've discovered that I can help client and companies with the following work.</p>
+                    <h2 class="h2-heading" data-aos="zoom-in-up">Delivered Projects</h2>
+                    <p class="p-heading" data-aos="zoom-in-up">Application design and development is my core skill for more than 4.5 years. During that time I've discovered that I can help client and companies with the following work.</p>
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
             <div class="row">
                 <div class="col-lg-4">
-                    <div class="card-box">
+                    <div class="card-box"data-aos="fade-up"
+                    data-aos-duration="1000">
                             <img class="img-fluid col-11" src="images/eventify.jpg" alt="alternative">
                         <h4>Eventify </h4>
                         <p>
@@ -239,7 +260,8 @@
                 </div>
             </div>
             <div class="col-lg-4">
-                <div class="card-box">
+                <div class="card-box"data-aos="fade-up"
+                data-aos-duration="1500">
                     <img class="img-fluid col-11" src="images/evm.jpg" alt="alternative">
                     <h4>EMS 2.0</h4>
                     <p>
@@ -253,7 +275,8 @@
                 </div>
             </div>
             <div class="col-lg-4">
-                <div class="card-box">
+                <div class="card-box" data-aos="fade-up"
+                data-aos-duration="2000">
                     <img class="img-fluid col-11" src="images/tradzhub.jpg" alt="alternative">
                     <h4>TradzHub </h4>
                     <p>
@@ -270,7 +293,8 @@
         </div>
         <div class="row row_2">
             <div class="col-lg-4">
-                <div class="card-box">
+                <div class="card-box" data-aos="fade-up"
+                data-aos-duration="1000">
                     <img class="img-fluid col-11" src="images/noon.jpg" alt="alternative">
                     <h4>Vizu</h4>
                     <p>Design interactive and responsive user interface (UI) and user experience
@@ -279,7 +303,8 @@
                 </div>
             </div>
             <div class="col-lg-4">
-                <div class="card-box">
+                <div class="card-box" data-aos="fade-up"
+                data-aos-duration="1500">
                     <img class="img-fluid col-11" src="images/evm traking.jpg" alt="alternative">
                     <h4>EMS Vehicle Tracking </h4>
                     <p>Design interactive and responsive user interface (UI) and user experience
@@ -290,7 +315,8 @@
                 </div>
             </div>
             <div class="col-lg-4">
-                <div class="card-box">
+                <div class="card-box" data-aos="fade-up"
+                data-aos-duration="2000">
                     <img class="img-fluid col-11" src="images/nexxux.jpg" alt="alternative">
                     <h4>Nexxus One</h4>
                     <p>Nexxus One is an innovative application that is revolutionising the way
@@ -303,7 +329,8 @@
         </div>
         <div class="row row_2">
             <div class="col-lg-4">
-                <div class="card-box">
+                <div class="card-box" data-aos="fade-up"
+                data-aos-duration="1000">
                     <img class="img-fluid col-11" src="images/nexxux.jpg" alt="alternative">
                     <h4>Nexxus One Public</h4>
                     <p>Nexxus One is a free, innovative messaging platform that allows the public to
@@ -314,7 +341,8 @@
                         end-to-end encryption..</p>
                 </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4" data-aos="fade-up"
+            data-aos-duration="1500">
                 <div class="card-box">
                     <img class="img-fluid col-11" src="images/app default.png" alt="alternative">
                     <h4>FabHR</h4>
@@ -324,7 +352,8 @@
                 </div>
             </div>
             <div class="col-lg-4">
-                <div class="card-box">
+                <div class="card-box" data-aos="fade-up"
+                data-aos-duration="2000">
                     <img class="img-fluid col-11" src="images/app default.png" alt="alternative">
                     <h4>Ecity App User & Merchant </h4>
                     <p>Flutter Developer (Complete Development) User App: E-Commerce
@@ -358,13 +387,16 @@
                 <p class="p-heading">Email - <a class="blue no-line" href="mailto:rupeshg0397@gmail.com">rupeshg0397@gmail.com</a>
                 </p>
                 <p class="p-heading">Mobile - <a href="tel:7697005469" class="phone-link">7697005469</a></p>
-                <a href="https://www.linkedin.com/in/rupesh-gour-8187281a3" target="_blank" rel="nonreferrer">
+                <a href="https://www.linkedin.com/in/rupesh-gour-8187281a3" target="_blank" rel="nonreferrer" data-aos="fade-up"
+                data-aos-duration="1000">
                     <img class="footer-icon" src="images/LinkedIn_icon_circle.svg.webp" alt="Linkedin"/>
                 </a>
-                <a href="https://github.com/rupeshgour31" target="_blank" rel="nonreferrer">
+                <a href="https://github.com/rupeshgour31" target="_blank" rel="nonreferrer" data-aos="fade-up"
+                data-aos-duration="1500">
                     <img class="footer-icon" src="images/GitHub_Invertocat_Logo.svg.png" alt="Github" />
                 </a>
-                <a href="https://api.whatsapp.com/send/?phone=%2B917697005469&text=Hello+Rupesh" target="_blank" rel="nonreferrer">
+                <a href="https://api.whatsapp.com/send/?phone=%2B917697005469&text=Hello+Rupesh" target="_blank" rel="nonreferrer" data-aos="fade-up"
+                data-aos-duration="3000">
                     <img class="footer-icon" src="images/wa.jpeg" alt="Github" />
                 </a>
             </div> <!-- end of col -->
@@ -442,5 +474,10 @@
 <script src="js/jquery.easing.min.js"></script>
 <!-- jQuery Easing for smooth scrolling between anchors -->
 <script src="js/scripts.js"></script> <!-- Custom scripts -->
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
 </body>
 </html>
